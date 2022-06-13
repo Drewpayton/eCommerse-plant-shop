@@ -1,3 +1,13 @@
-.empty-shoppingcart{
+.empty-shoppingcart,
+.user-log-in{
     max-width: 25px;
+}
+
+.logo-navbar {
+    max-width: 100px;
+}
+
+.custom-nav-search {
+    background-color: transparent !important;
+    border-color: black;
 }

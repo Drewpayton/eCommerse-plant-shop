@@ -12,9 +12,23 @@
 <body>
 
     <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href=""><img class="empty-shoppingcart" src="pictures/shopping-cart-empty.png" alt="shopping cart empty"></a>
+        <div class="d-flex align-items-center">
+            <a class="navbar-brand float-start mx-4" href=""><img class="empty-shoppingcart" src="pictures/shopping-cart-empty.png" alt="shopping cart empty"></a>
+            <form class="d-flex float-start ">
+                <input class="form-control me-2 custom-nav-search" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <button type="button" class="btn btn-outline-dark btn-lg"><img class="user-log-in me-2" src="pictures/userlogin.png"></img>Log in</button>
         </div>
+        <div class="d-flex">
+            <a href="">
+                <img class="logo-navbar d-flex mx-auto" src="pictures/plant_logo.PNG" alt=""></img>
+            </a>
+        </div>
+        <div class="btn-group d-flex justify-content-end me-5" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-dark">Plants</button>
+            <button type="button" class="btn btn-outline-dark">Subscriptions</button>
+            <button type="button" class="btn btn-outline-dark">Sale</button>
+          </div>
     </nav>
     
 
