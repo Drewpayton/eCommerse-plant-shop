@@ -3,11 +3,54 @@
     max-width: 25px;
 }
 
+.custom-login-btn {
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+}
+.custom-login-btn:hover {
+    background-color: white !important;
+}
+.custom-login-btn:hover .user-log-in{  
+    content: url("pictures/userlogin.png"); 
+}
+
+.bodytwo {
+   background-color: burlywood;
+   color: white;
+   margin-top: 63vh;
+}
+
 .logo-navbar {
     max-width: 100px;
+    background-color: rgb(0, 0, 0, .6);
+    border-radius: 50%;
+    box-shadow: 0px 0px 70px 20px black;
+}
+
+.custom-text {
+    box-shadow: 10px 10px 10px black;
+    border: solid rgb(245, 245, 220, .7) 7px;
+    background-color: rgb(245, 245, 220, .7);
+    color: #155217;
 }
 
 .custom-nav-search {
     background-color: transparent !important;
-    border-color: black;
+    border-color: white;
+    
+}
+
+.custom-nav-search::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.custom-nav-search:focus-visible {
+    color: white;
+}
+
+.picone {
+    background-image: url("pictures/Plant-Lover-Background.webp") !important;
+    background-repeat: no-repeat;
+    color: white;
 }
